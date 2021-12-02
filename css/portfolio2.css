@@ -1,0 +1,144 @@
+/* div, input, textarea 테그에 padding, border 합쳐서 size 지정 */
+div,input,textarea {
+    box-sizing : border-box;
+}
+
+
+/* 테이블 틈없애기*/
+table{
+    border-collapse:collapse;
+}
+
+/* sky-blue 색상 */
+
+.sky-blue{
+    color: #6fbaf8;
+}
+
+/* div 중앙만들기 */
+
+.middle-div{
+    position:absolute;
+    margin: auto;
+    top:0;
+    bottom: 0;
+    left:0;
+    right:0;
+}
+
+/* border-radius */
+
+.border-r{
+    border-radius: 10px;
+}
+
+/* 폰트 사이즈 fs-1 부터 fs-6 : 크 --> 작 */
+
+/* 굵기
+<p class="fw-bold">Bold text.</p>
+<p class="fw-normal">Normal weight text.</p>
+<p class="fw-light">Light weight text.</p> */
+
+
+/* main-back */
+
+.main-back{
+    background-color:#ebedee;
+    width: 1500px;
+    height: 1000px;
+    padding: 50px;
+}
+
+/* header */
+
+.header{
+    width: 1200px;
+    height: 300px;
+    background-color: snow;
+    padding: 20px;
+}
+
+/* card-box */
+
+.card-box-css{
+    height: 260px;
+    width: 700px;
+    border-style: solid;
+    border-width: 0px 3px 0px 0px;
+    border-color: #ebedee;
+}
+
+.btn{
+    background-color: #6fbaf8;
+    border-color: #6fbaf8;
+    width: 130px;
+    height: 40px;
+}
+
+/* explain-box */
+
+.explain-box{
+    padding: 20px;
+    position: relative;
+    width: 400px;
+    height: 260px;
+}
+
+
+th{
+    border-right-width: 50px;
+    border-color: snow;
+}
+
+
+/* middle */
+
+.middle-1{
+    width: 230px;
+    height: 350px;
+    background-color: snow;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.middle-2{
+    width: 700px;
+    height: 500px;
+    background-color: snow;
+    padding: 20px;
+}
+
+.skill-btn{
+    border-radius: 20px;
+    margin: 5px;
+    border-width: 1px;
+    background-color: snow;
+    padding: 5px 10px 5px 10px;
+    
+}
+
+
+
+.middle-3{
+    width: 230px;
+    height: 500px;
+    margin-left: 20px;
+
+}
+
+.middle-3-up{
+    background-color: snow;
+    text-align: center;
+}
+
+.m3-down-sub1{
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color: #babdbe;
+}
+
+.m3-down-sub2{
+    height:35%;
+}
+
+
